@@ -69,4 +69,23 @@ footer{
 
 footer p{
     font-size: 14px;}
-
+    .last{
+        margin-top: 65px;}
+    
+    .last a{
+        color: rgb(113, 170, 207);
+        text-decoration: underline;
+    }
+        
+    
+    .last a:hover{
+        text-decoration:none;
+        color: grey;}
+    
+    
+    
+    @media only screen and (max-width: 600px) {
+        .img1{
+            margin-left:5px;
+        }
+    }
